@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --backgroundcolor: 	#f4d04e;
+    --white: #FFFFFF;
+    --grey500: 	#6b6b6b;
+    --grey950: 	#121212;
+    --primaryfont: 'Figtree', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+}
+
+.container {
+    background-color: var(--white);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    width: 370px;
+    height: 490px;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 7px 7px;
+}
+
+.container-img {
+    width: 100%;
+    padding: 1.4rem;
+}
+
+.container-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.TAG {
+    font-family: var(--primaryfont);
+    font-size: 0.8rem;
+    font-weight: 800;
+    display: flex;
+    width: 6.25rem;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0.4rem 0 0.4rem 0;
+    border-radius: 0.3rem;
+    background-color: var(--backgroundcolor);
+}
+
+.post-date {
+    font-family: var(--primaryfont);
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: left;
+    margin-top: 0.5rem;
+}
+
+.post-title {
+    font-family: var(--primaryfont);
+    font-size: 1.4rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: left;
+    padding: 0.6rem 0;
+}
+
+.post-copy {
+    font-family: var(--primaryfont);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey500);
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding: 0.5rem 0;
+}
+
+.post-by {
+    font-family: var(--primaryfont);
+    font-size: 1rem;
+    font-weight: 800;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.post-by img {
+    width: 10%;
+}
+
+.post-by p {
+    margin-left: 1.5rem;
+}
+
+footer {
+    font-family: var(--primaryfont);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 390px) {
+    .container {
+        margin-top: 4rem;    
+        width: 320px;
+        height: 460px;
+    }
+
+    footer {
+        padding: 1.5rem 2rem;
+    }
+}
+
