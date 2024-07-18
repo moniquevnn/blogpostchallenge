@@ -112,7 +112,7 @@ footer {
 
 /* Media Queries */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 430px) {
     .container {
         margin-top: 4rem;    
         width: 320px;
@@ -120,7 +120,7 @@ footer {
     }
 
     footer {
-        padding: 1.5rem 2rem;
+        padding: 2rem 5rem;
     }
 }
 
